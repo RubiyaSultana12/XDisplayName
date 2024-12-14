@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function FullNameDisplay() {
+function App() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [fullName, setFullName] = useState("");
@@ -42,4 +42,4 @@ function FullNameDisplay() {
   );
 }
 
-export default FullNameDisplay;
+export default App;
