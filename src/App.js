@@ -54,7 +54,7 @@ function App() {
           Submit
         </button>
       </form>
-      {fullname ? <p>Full Name:{fullname}</p> : null}
+      {fullname && <p>Full Name:{fullname}</p> }
     </div>
   );
 }
